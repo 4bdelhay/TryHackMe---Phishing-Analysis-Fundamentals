@@ -37,7 +37,7 @@ Next, let's look at the network protocols used to send an email from the sender 
 
 **Email dates back to what time frame?**
 
-`*1970s* `
+`1970s`
 __________________________________________________________________________
 ***Email Delivery***
 
@@ -90,15 +90,15 @@ Lastly, each protocol has its associated default ports and recommended ports. Fo
 
 **What port is classified as Secure Transport for SMTP?**
 
-`*465*`
+`465`
 
 **What port is classified as Secure Transport for IMAP?**
 
-`*993*`
+`993`
 
 **What port is classified as Secure Transport for POP3?**
 
-`*995*`
+`995`
 
 ____________________________________________________________________
 ***Email Headers***
@@ -137,11 +137,11 @@ Note: Depending on your email client, whether a web client or a desktop app, the
 
 ***What email header is the same as "Reply-to"?***
 
-`*Return-Path*`
+`Return-Path`
 
 ***Once you find the email sender's IP address, where can you retrieve more information about the IP?***
 
-`*http://www.arin.net*`
+`http://www.arin.net`
 
 _____________________________________________________________
 ***Email Body***
