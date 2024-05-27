@@ -1,5 +1,4 @@
 # WriteUp TryHackMe - Phishing-Analysis-Fundamentals
-the link of the room : [Link text](https://tryhackme.com/r/room/phishingemails1tryoe)
 27/04/2024
 this writeup has been made by Abdelhay. it contains all the components that make up an email.
 happy reading!
@@ -30,8 +29,10 @@ To simplify this even further, think about the street on which you live on.
 With this information, the postal worker delivering the mail knows into which mailbox to put the letter(s). 
 
 Next, let's look at the network protocols used to send an email from the sender to the recipient.
-**Answer the questions below
-Email dates back to what time frame?**
+**Answer the questions below**
+
+**Email dates back to what time frame?**
+
 `*1970s* `
 __________________________________________________________________________
 ***Email Delivery***
@@ -67,8 +68,8 @@ The difference between the two is listed below: (credit AOL -- You got mail!)
 Now let's talk about how email travels from the sender to the recipient.
 
 Below is an explanation of each numbered point from the above diagram:
+Alexa composes an email to Billy (billy@johndoe.com) in her favorite email client. After she's done, she hits the send button.
 
-    Alexa composes an email to Billy (billy@johndoe.com) in her favorite email client. After she's done, she hits the send button.
 1.  The SMTP server needs to determine where to send Alexa's email. It queries DNS for information associated with johndoe.com. 
 2.  The DNS server obtains the information johndoe.com and sends that information to the SMTP server. 
 3.  The SMTP server sends Alexa's email across the Internet to Billy's mailbox at johndoe.com.
@@ -79,12 +80,16 @@ Below is an explanation of each numbered point from the above diagram:
 9.  Alexa's email is copied (IMAP) or downloaded (POP3) to Billy's email client. 
 
 Lastly, each protocol has its associated default ports and recommended ports. For example, SMTP is port 25.
-**Answer the questions below
-What port is classified as Secure Transport for SMTP?**
+***Answer the questions below***
+
+**What port is classified as Secure Transport for SMTP?**
+
 ` *465* `
 **What port is classified as Secure Transport for IMAP?**
+
 ` *993* `
 **What port is classified as Secure Transport for POP3?**
+
 ` *995* `
 ____________________________________________________________________
 ***Email Headers***
@@ -121,11 +126,14 @@ Note: Depending on your email client, whether a web client or a desktop app, the
 ***Answer the questions below***
 
 ***What email header is the same as "Reply-to"?***
+
 ` *Return-Path* `
 ***Once you find the email sender's IP address, where can you retrieve more information about the IP?***
+
 `*http://www.arin.net*`
 _____________________________________________________________
 ***Email Body***
+
 The email body is the part of the email which contains the text (plain or HTML formatted) the sender wants you to view. 
 
 Below is an example of a text-only email.
@@ -185,13 +193,17 @@ Warning: When interacting with attachments, proceed with caution and make sure y
 
 Note: Headers specific to 'content' can be found in various locations within an email message source code, and they're not only associated with attachments. For example, Content-Type can be text/html, and Content-Transfer-Encoding can have other values, such as 8bit. 
 ***Answer the questions below***
+
 ***In the above screenshots, what is the URI of the blocked image?***
+
 *`https://i.imgur.com/LSWOtDI.png`*
 
 ***In the above screenshots, what is the name of the PDF attachment?***
+
 *`Payment-updateid.pdf`*
 
 ***In the attached virtual machine, view the information in email2.txt and reconstruct the PDF using the base64 data. What is the text within the PDF?***
+
 *`THM{BENIGN_PDF_ATTACHMENT}`*
 _____________________________________________________________________
 
@@ -233,13 +245,19 @@ Analyze the email titled email3.eml within the virtual machine and answer the qu
 Note: Alexa is the victim, and Billy is the analyst assigned to the case. Alexa forwarded the email to Billy for analysis. 
 
 ***Answer the questions below***
+
 ***What trusted entity is this email masquerading as?***
+
 *`Home Depot`*
 ***What is the sender's email?***
+
 *`support@teckbe.com`*
 ***What is the subject line?***
+
 *`Order Placed : Your Order ID OD2321657089291 Placed Successfully`*
+
 ***What is the URL link for - CLICK HERE? (Enter the defanged***
+
 *`hxxp[://]t[.]teckbe[.]com/p/?j3=EOowFcEwFHl6EOAyFcoUFV=TVEchwFHlUFOo6lVTTDcATE7oUE7AUET==`*
 __________________________________________________________
 
@@ -261,6 +279,7 @@ Within this room, we covered the following:
 
 In the upcoming Phishing Analysis series, we'll look at samples of various common techniques used in phishing email campaigns, along with tools to assist us with analyzing an email header and email body. 
 ***Answer the questions below***
+
 ***What is BEC?***
 
 *`Business Email Compromise`*
