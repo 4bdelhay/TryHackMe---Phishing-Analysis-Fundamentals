@@ -3,6 +3,7 @@
 this writeup has been made by Abdelhay. it contains all the components that make up an email.
 happy reading!
 let's get started..
+______________________________________________________________
 ***The Email Address***
 
 It's only appropriate to start this room by mentioning the man who invented the concept of emails and made the @ symbol famous. The person responsible for the contribution to the way we communicate was Ray Tomlinson. 
