@@ -80,19 +80,24 @@ Alexa composes an email to Billy (billy@johndoe.com) in her favorite email clien
 9.  Alexa's email is copied (IMAP) or downloaded (POP3) to Billy's email client. 
 
 Lastly, each protocol has its associated default ports and recommended ports. For example, SMTP is port 25.
+
 ***Answer the questions below***
 
 **What port is classified as Secure Transport for SMTP?**
 
 ` *465* `
+
 **What port is classified as Secure Transport for IMAP?**
 
 ` *993* `
+
 **What port is classified as Secure Transport for POP3?**
 
 ` *995* `
+
 ____________________________________________________________________
 ***Email Headers***
+
 Great! We know how an email travels from point A to point B and all the protocols involved in the process. 
 
 This task is to understand the components of what makes up an email message when it arrives in an inbox.
@@ -128,9 +133,11 @@ Note: Depending on your email client, whether a web client or a desktop app, the
 ***What email header is the same as "Reply-to"?***
 
 ` *Return-Path* `
+
 ***Once you find the email sender's IP address, where can you retrieve more information about the IP?***
 
 `*http://www.arin.net*`
+
 _____________________________________________________________
 ***Email Body***
 
