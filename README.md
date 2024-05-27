@@ -24,8 +24,8 @@ Let's look at the following email address, billy@johndoe.com.
 
 To simplify this even further, think about the street on which you live on.
 
-    You can think of your street as the domain. 
-    The recipient's first/last name, along with the house number in this scenario, represents the user mailbox. 
+You can think of your street as the domain. 
+The recipient's first/last name, along with the house number in this scenario, represents the user mailbox. 
 
 With this information, the postal worker delivering the mail knows into which mailbox to put the letter(s). 
 
@@ -44,27 +44,28 @@ By now, you should already know that certain protocols were created to handle sp
 
 There are 3 specific protocols involved to facilitate the outgoing and incoming email messages, and they are briefly listed below.
 
-    **SMTP** (Simple Mail Transfer Protocol) - It is utilized to handle the sending of emails. 
+**SMTP** (Simple Mail Transfer Protocol) - It is utilized to handle the sending of emails. 
 
-    **POP3** (Post Office Protocol) - Is responsible transferring email between a client and a mail server. 
+**POP3** (Post Office Protocol) - Is responsible transferring email between a client and a mail server. 
 
-    **IMAP** (Internet Message Access Protocol) - Is responsible transferring email between a client and a mail server. 
+**IMAP** (Internet Message Access Protocol) - Is responsible transferring email between a client and a mail server. 
 
 You should have noticed that both POP3 and IMAP have the same definition. But there are differences between the two.
 
 The difference between the two is listed below: (credit AOL -- You got mail!)
 
-                                          **POP3**
+**POP3**
 
-    Emails are downloaded and stored on a single device.
-    Sent messages are stored on the single device from which the email was sent.
-    Emails can only be accessed from the single device the emails were downloaded to.
-    If you want to keep messages on the server, make sure the setting "Keep email on server" is enabled, or all messages are deleted from the server once downloaded to the single device's app or software.
-                                        **IMAP**
+Emails are downloaded and stored on a single device.
+Sent messages are stored on the single device from which the email was sent.
+Emails can only be accessed from the single device the emails were downloaded to.
+If you want to keep messages on the server, make sure the setting "Keep email on server" is enabled, or all messages are deleted from the server once downloaded to the single device's app or software.
 
-    Emails are stored on the server and can be downloaded to multiple devices.
-    Sent messages are stored on the server.
-    Messages can be synced and accessed across multiple devices.
+**IMAP**
+
+Emails are stored on the server and can be downloaded to multiple devices.
+Sent messages are stored on the server.
+Messages can be synced and accessed across multiple devices.
 
 Now let's talk about how email travels from the sender to the recipient.
 
