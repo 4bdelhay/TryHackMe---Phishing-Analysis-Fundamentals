@@ -90,15 +90,15 @@ Lastly, each protocol has its associated default ports and recommended ports. Fo
 
 **What port is classified as Secure Transport for SMTP?**
 
-` *465* `
+`*465*`
 
 **What port is classified as Secure Transport for IMAP?**
 
-` *993* `
+`*993*`
 
 **What port is classified as Secure Transport for POP3?**
 
-` *995* `
+`*995*`
 
 ____________________________________________________________________
 ***Email Headers***
@@ -111,8 +111,8 @@ This understanding is necessary if you wish to analyze potentially malicious ema
 
 Before we begin, we need to understand that there are two parts to an email:
 
-    the email header (information about the email, such as the email servers that relayed the email)
-    the email body (text and/or HTML formatted text)
+the email header (information about the email, such as the email servers that relayed the email)
+the email body (text and/or HTML formatted text)
 
 The syntax for email messages is known as the Internet Message Format (IMF).
 
@@ -137,7 +137,7 @@ Note: Depending on your email client, whether a web client or a desktop app, the
 
 ***What email header is the same as "Reply-to"?***
 
-` *Return-Path* `
+`*Return-Path*`
 
 ***Once you find the email sender's IP address, where can you retrieve more information about the IP?***
 
@@ -225,12 +225,12 @@ Now that we covered the general concepts regarding emails and how they travel fr
 
 Different types of malicious emails can be classified as one of the following:
 
-   * Spam - unsolicited junk emails sent out in bulk to a large number of recipients. The more malicious variant of Spam is known as MalSpam.
-   * Phishing -  emails sent to a target(s) purporting to be from a trusted entity to lure individuals into providing sensitive information. 
-   * Spear phishing - takes phishing a step further by targeting a specific individual(s) or organization seeking sensitive information.  
-   * Whaling - is similar to spear phishing, but it's targeted specifically to C-Level high-position individuals (CEO, CFO, etc.), and the objective is the same. 
-   * Smishing - takes phishing to mobile devices by targeting mobile users with specially crafted text messages. 
-   *  Vishing - is similar to smishing, but instead of using text messages for the social engineering attack, the attacks are based on voice calls. 
+* Spam - unsolicited junk emails sent out in bulk to a large number of recipients. The more malicious variant of Spam is known as MalSpam.
+* Phishing -  emails sent to a target(s) purporting to be from a trusted entity to lure individuals into providing sensitive information. 
+* Spear phishing - takes phishing a step further by targeting a specific individual(s) or organization seeking sensitive information.  
+* Whaling - is similar to spear phishing, but it's targeted specifically to C-Level high-position individuals (CEO, CFO, etc.), and the objective is the same. 
+* Smishing - takes phishing to mobile devices by targeting mobile users with specially crafted text messages. 
+*  Vishing - is similar to smishing, but instead of using text messages for the social engineering attack, the attacks are based on voice calls. 
 
 When it comes to phishing, the modus operandi is usually the same depending on the objective of the email.
 
@@ -238,13 +238,13 @@ For example, the objective can be to harvest credentials, and another is to gain
 
 Below are typical characteristics phishing emails have in common:
 
-    The sender email name/address will masquerade as a trusted entity (email spoofing)
-    The email subject line and/or body (text) is written with a sense of urgency or uses certain keywords such as Invoice, Suspended, etc. 
-    The email body (HTML) is designed to match a trusting entity (such as Amazon)
-    The email body (HTML) is poorly formatted or written (contrary from the previous point)
-    The email body uses generic content, such as Dear Sir/Madam. 
-    Hyperlinks (oftentimes uses URL shortening services to hide its true origin)
-    A malicious attachment posing as a legitimate document
+The sender email name/address will masquerade as a trusted entity (email spoofing)
+The email subject line and/or body (text) is written with a sense of urgency or uses certain keywords such as Invoice, Suspended, etc. 
+The email body (HTML) is designed to match a trusting entity (such as Amazon)
+The email body (HTML) is poorly formatted or written (contrary from the previous point)
+The email body uses generic content, such as Dear Sir/Madam. 
+Hyperlinks (oftentimes uses URL shortening services to hide its true origin)
+A malicious attachment posing as a legitimate document
 
 We'll look at each of these techniques (characteristics) in greater detail in the next room within the Phishing module.
 
@@ -282,12 +282,12 @@ A BEC is when an adversary gains control of an internal employee's account and t
 Tip: You should be familiar with this term. I have heard this question asked before in a job interview. 
 Within this room, we covered the following:
 
-    What makes up an email address?
-    How an email travels from sender to recipient.
-    How to view the source code of an email header.
-    How to view the source code of an email body. 
-    Understand the pertinent information we should obtain from an email we're analyzing.
-    Some common techniques attackers use in spam and phishing email campaigns.
+What makes up an email address?
+How an email travels from sender to recipient.
+How to view the source code of an email header.
+How to view the source code of an email body. 
+Understand the pertinent information we should obtain from an email we're analyzing.
+Some common techniques attackers use in spam and phishing email campaigns.
 
 In the upcoming Phishing Analysis series, we'll look at samples of various common techniques used in phishing email campaigns, along with tools to assist us with analyzing an email header and email body. 
 ***Answer the questions below***
